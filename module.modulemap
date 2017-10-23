@@ -1,4 +1,5 @@
 module CMagickWand [system] {
+  header "shim.h"
   header "/usr/local/include/ImageMagick-7/MagickWand/MagickWand.h"
   header "/usr/local/include/ImageMagick-7/MagickCore/MagickCore.h"
   link "MagickWand-7.Q16HDRI"
